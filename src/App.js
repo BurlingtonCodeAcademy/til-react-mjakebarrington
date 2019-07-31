@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Today I Learned</h1>
+      <h1 id="title">Today I Learned</h1>
       <li><a href='/facts'>List all entries (JSON)</a></li>
       <h2>Add a fact</h2>
       <form method="POST" action="/facts">

@@ -1,11 +1,26 @@
-.App {
-  text-align: center;
+body {
+  background: rgb(38,35,53);
+  color: rgb(113,239,183);
+}
+#title {
+  background: rgb(42,33,57);
+  width: fit-content;
+  margin: 0 auto;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: rgb(178,197,200);
+}
+
+
+
+/*
+=============
+REACT STYLING
+=============
+*/
+.App {
+  text-align: center;
 }
 
 .App-header {
@@ -21,13 +36,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
