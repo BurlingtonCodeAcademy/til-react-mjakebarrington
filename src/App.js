@@ -65,6 +65,8 @@ class App extends React.Component {
                    theFact={this.state.currentFact} />
         </div>
       );
+    } else {
+      console.error('PATH ERROR')
     }
   }
 }
