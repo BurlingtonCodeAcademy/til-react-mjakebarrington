@@ -55,12 +55,14 @@ class App extends React.Component {
     } else if (path === '/facts') {
       return(
         <div>
+          {/* Pass props to Facts */}
           <Facts allFacts={this.state.facts} getAllFacts={this.getAllFacts}/>
         </div>
       );
     } else if (path === '/fact') {
       return(
         <div>
+          {/* Pass getAFact as a prop of Fact, path, current fact. */}
           <Fact getAFact={this.getAFact} path={path}
                    theFact={this.state.currentFact} />
         </div>
