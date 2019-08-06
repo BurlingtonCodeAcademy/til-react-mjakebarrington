@@ -22,13 +22,12 @@
   "bugs": {
     "url": "https://github.com/BurlingtonCodeAcademy/til/issues"
   },
-  "homepage": "/",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "mime": "^2.3.1",
     "mime-types": "^2.1.18",
     "moment": "^2.22.2",
-    "mongodb": "^3.1.1",
+    "mongodb": "^3.2.7",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
